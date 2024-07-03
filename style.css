@@ -1,0 +1,402 @@
+body, html {
+    margin: 0;
+    max-width: 100%;
+
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+    background-color: #FEFCF6;
+}
+
+/* Title */
+
+#Title h1 {
+    font-size: 7.5vw;
+    font-weight: 400;
+
+    text-align: left;
+    line-height: 8vw;
+    word-spacing: 0px;
+    letter-spacing: -2px;
+
+    max-width: 100%;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 20px;
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+
+            .title-and-buttons {
+                display: flex;
+                align-items: flex-start;
+                align-items: center;
+                width: 100%;
+            }
+
+            .buttons-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding-right: 14px;
+            }
+            
+            .btn {
+                text-align: center;
+                padding: 8px 25px;
+                
+
+                font-size: 1.5vw;
+                font-weight: 500;
+                width: 100%;
+
+                background-color: #FEFCF6;
+                color: #000000;
+                border: none;
+                cursor: pointer;
+                transition: background-color 0.3s;
+                border-radius: 30px;
+                border: 1px solid rgb(0, 0, 0);
+
+                margin-bottom: 5px;
+                margin-right: 5px;
+            }
+            
+            .btn a {
+                color: inherit;
+                text-decoration: none;
+                display: block;
+                line-height: inherit;
+                align-items: center;
+            }
+
+            .btn:hover {
+                background-color: #e0e0e0;
+            }
+            
+
+#Title h2 {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.2em;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+}
+
+        #Title h2 span {
+            font-size: 1.2vw;
+        }
+
+
+#Title h3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 1.2em;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+        #Title h3 span {
+            font-size: 1vw;
+        }
+
+        #Title h3 span {
+            font-size: 1vw;
+        }
+
+        #Title h3 span {
+            font-size: 1vw;
+        }
+
+        #Title h3 a {
+            color: inherit; /* Ensures link color is the same as the button */
+            text-decoration: none; /* Removes underline */
+            display: block; /* Makes the link fill the button */
+        }
+
+        #Title h3 .up-sub-1:hover { color:rgb(255, 0, 0); }
+        #Title h3 .up-sub-2:hover { color:rgb(255, 128, 0); }
+        #Title h3 .up-sub-3:hover { color:rgb(217, 0, 255); }
+        #Title h3 .up-sub-4:hover { color:rgb(0, 191, 255); }
+        #Title h3 .up-sub-5:hover { color:rgb(0, 38, 255); }
+
+
+#categories h1 {
+            font-size: 2.3vw;
+            font-weight: 600;
+        
+            text-align: left;
+            line-height: 3vw;
+            word-spacing: 0px;
+            letter-spacing: 0px;
+        
+            max-width: 100%;
+        
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0 20px;
+        
+            text-transform: uppercase;
+        }
+
+
+        
+
+/* Content */
+
+.subtitle h1 {
+    font-size: 2.1vw;
+    font-weight: 400;
+
+    text-align: left;
+    line-height: 3vw;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+
+    max-width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 30px;
+
+    text-transform: uppercase;
+}
+
+        .subtitle h1 a {
+            color: inherit;
+            text-decoration: none;
+            display: block; 
+        }
+
+        #p1:hover { color:rgb(255, 0, 0); }
+        #p2:hover { color:rgb(0, 115, 255); }
+        #p3:hover { color:rgb(255, 187, 0); }
+        #p4:hover { color:rgb(0, 255, 85); }
+        #p5:hover { color:rgb(174, 0, 255); }
+
+
+        .subtitle-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .subtitle-buttons-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 20px;
+        }
+
+        .subtitle-btn {
+            text-align: center;
+            padding: 8px 15px;
+            font-size: 1.2vw;
+            font-weight: 500;
+            background-color: #CCCCCC;
+            color: #333333;
+            border: 1px solid #666666;
+            border-radius: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .subtitle-btn:hover {
+            background-color: #BBBBBB;
+        }
+
+
+.subtitle h2 {
+    font-size: 2vw;
+    font-weight: 400;
+
+    text-align: center;
+    line-height: 2vw;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+
+    max-width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 20px;
+
+    text-transform: uppercase;
+}
+
+.subtitle h4 {
+    font-size: 1.5vw;
+    font-weight: 300;
+
+    line-height: 1.2em; 
+    word-spacing: 0px;
+    letter-spacing: 0px;
+
+    max-width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0 30px;
+}
+
+.subtitle h5 {
+    font-size: 1.5vw;
+    font-weight: 400;
+
+    text-align: right;
+    line-height: 3vw;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+
+    max-width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 20px;
+
+
+}
+
+/* Content */
+
+.detailsContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    opacity: 0; /* Start fully transparent */
+}
+
+.detailsContent.expanded {
+    max-height: 500px; /* Adjust this value based on the content's actual height */
+    opacity: 1; /* Fade in to fully opaque */
+}
+
+
+/* logo */
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%; 
+    height: 50%;
+    padding: 10px;
+    margin: auto;
+}
+
+
+/* #webpage_main_image */
+
+#webpage_main_image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+    height: 100%;
+     /*padding: 0 20px;*/
+}
+
+
+
+
+
+/* 이미지 */
+
+
+.webpage_main_image, .image-text {
+    flex: 1 1 50%;
+    padding: 30px;
+}
+
+        .resizable-image {
+            width: 100%; 
+            height: auto; 
+}
+
+.image-text {
+    padding: 20px;
+    text-align: center;          font-size: 2vw;
+    font-weight: 300;
+}
+
+        .image-text-btn {
+            text-align: center;
+            padding: 8px 15px;
+            font-size: 1.2vw;
+            font-weight: 500;
+            background-color: #cccccc00; 
+            color: #333333;
+            border: 1px solid #666666; 
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 2%;
+        }
+
+        .image-text-btn a {
+            color: inherit;
+            text-decoration: none; 
+            display: block;
+            line-height: inherit;
+            align-items: center;
+        }
+
+        .image-text-btn:hover {
+            background-color: #BBBBBB;
+        }
+
+    
+/*선*/
+
+.hr {
+    border: none;
+    height: 0.5px; 
+    background-color: #333;
+}
+
+.thin-hr {
+    border: none;
+    height: 0.3px;
+    background-color: #333;
+}
+
+.thick-hr {
+    border: none;
+    height: 1.5px;
+    background-color: #333;
+}
+
+.vertical-line {
+    flex: 0.5px;
+    background-color: #333;
+    height: auto;
+    align-self: stretch;
+}
+
+
+/* Existing responsive styles */
+@media screen and (max-width: 768px) {
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Tablet styles */
+}
