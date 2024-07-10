@@ -225,7 +225,7 @@ body, html {
 
 
 .subtitle h2 {
-    font-size: 2vw;
+    font-size: 3.3vw;
     font-weight: 400;
 
     text-align: center;
@@ -314,6 +314,98 @@ body, html {
 }
 
 
+#about-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #FEFCF6;
+    text-align: left;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.profile-text {
+    max-width: 500px;
+}
+
+.details-section {
+    margin-top: 20px;
+}
+
+.details-text h1, .details-text p {
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.education, .degree, .skills, .awards, .scholarship {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.degree .charts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chart {
+    text-align: center;
+}
+
+.circular-chart {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.circular-chart .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circular-chart .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+}
+
+.circular-chart.blue .circle {
+    stroke: #3e98c7;
+}
+
+.circular-chart.orange .circle {
+    stroke: #f4c542;
+}
+
+.circular-chart.green .circle {
+    stroke: #4caf50;
+}
+
+.circular-chart .percentage {
+    font-size: 0.5em;
+    text-anchor: middle;
+    fill: #666;
+}
+
+.skills-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
 
 
 
