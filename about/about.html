@@ -7,220 +7,288 @@
     <link rel="shortcut icon" href="../image/favicon.png" type="image/x-icon">
     <title>DDOAZOO</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../site.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-    <div id="Title">
+        <div id="Title">
         <hr class="thick-hr">
-        <h2>
-            <span class="up-sub-1">Parsons school of design</span>
-            <span class="up-sub-2">Seoul</span>
-            <span class="up-sub-3">New York</span>
-            <span class="up-sub-4">Communication Design</span>
-        </h2>
+            <h2>
+                <span class="up-sub-1">Parsons school of design</span>
+                <span class="up-sub-2">Seoul</span>
+                <span class="up-sub-3">New York</span>
+                <span class="up-sub-4">Communication Design</span>
+            </h2>
         <hr class="thin-hr">
         <div class="title-and-buttons">
             <h1>JINHYEOK JANG</h1>
             <div class="buttons-container">
-                <button class="btn">
-                    <a href="../index.html">Home</a>
-                </button>
-                <button class="btn">
-                    <a href="about.html">About</a>
-                </button>
-                <button class="btn">
-                    <a href="../menu.html">Menu</a>
-                </button>
+                <a class="btn" href="../index.html" data-en="Home" data-ko="홈">Home</a>
+                <a class="btn" href="about.html" data-en="About" data-ko="소개">About</a>
+                <a class="btn" href="../menu.html" data-en="Menu" data-ko="메뉴">Menu</a>
             </div>
         </div>
+
         <hr class="thin-hr">
-        <h3>
-            <span class="up-sub-1">
-                <a href="https://www.youtube.com/@ddoazoo">Youtube</a>
-            </span>
-            <span class="up-sub-2">
-                <a href="https://www.soundcloud.com/ddoazoo">Soundcloud</a>
-            </span>
-            <span class="up-sub-3">
-                <a href="https://www.instagram.com/ddoazoo">Instagram</a>
-            </span>
-            <span class="up-sub-4">
-                <a href="https://www.x.com/ddoazoo">X (Twitter)</a>
-            </span>
-            <span class="up-sub-5">
-                <a href="https://www.facebook.com/DDOAZOO">Facebook</a>
-            </span>
-        </h3>
+        <nav class="social-links" aria-label="Social links">
+            <a class="social-link social-link-youtube" href="https://www.youtube.com/@ddoazoo">Youtube</a>
+            <a class="social-link social-link-soundcloud" href="https://www.soundcloud.com/ddoazoo">Soundcloud</a>
+            <a class="social-link social-link-instagram" href="https://www.instagram.com/ddoazoo">Instagram</a>
+            <a class="social-link social-link-twitter" href="https://www.x.com/ddoazoo">X (Twitter)</a>
+            <a class="social-link social-link-facebook" href="https://www.facebook.com/DDOAZOO">Facebook</a>
+        </nav>
     </div>
 
-    <hr class="thick-hr">
+<hr class="thick-hr">
     <div class="subtitle">
         <div class="subtitle-header">
-            <h1>About</h1>
+            <h1 data-en="About" data-ko="소개">About</h1>
             <div class="subtitle-buttons-container">
-                <button class="subtitle-btn detailsButton">Details</button>
+                <button class="subtitle-btn detailsButton" type="button" data-en="Details" data-ko="상세">Details</button>
             </div>
         </div>
-        <div class="detailsContent">
+        <div class="detailsContent expanded">
             <hr class="thin-hr">
-            <div id="webpage_main_image">
-                <div class="webpage_main_image">
-                    <img src="../image/1.png" alt="Jinhyeok Jang" class="profile-image">
+            <section class="about-contact-panel">
+                <div class="about-contact-photo">
+                    <img src="../image/profile.jpg" alt="Jinhyeok Jang" class="profile-image">
                 </div>
-                <div class="vertical-line"></div>
-                <div class="image-text">
-                    <br>
-                    <h2>Hi, I'm Jinhyeok.</h2>
-                    <p>Visual Communication Designer.</p>
+                <div class="about-contact-info">
+                    <div class="contact-topline">
+                        <span class="profile-label" data-en="Contact" data-ko="연락처">Contact</span>
+                        <div class="language-switch" role="group" aria-label="Language" data-language-switch>
+                            <button class="language-option is-active" type="button" data-language-option="en" aria-pressed="true">EN</button>
+                            <button class="language-option" type="button" data-language-option="ko" aria-pressed="false">KR</button>
+                        </div>
+                    </div>
+                    <h2 data-en="Jinhyeok Jang" data-ko="장진혁">Jinhyeok Jang</h2>
+                    <p class="contact-lede" data-en="New York / Seoul based designer specializing in graphic, visual, digital, and brand design. Currently completing a BFA in Communication Design at Parsons School of Design." data-ko="뉴욕과 서울을 기반으로 활동하는 그래픽, 시각, 디지털, 브랜드 디자인 전문 디자이너입니다. 현재 Parsons School of Design에서 Communication Design BFA 과정을 이수하고 있습니다.">New York / Seoul based designer specializing in graphic, visual, digital, and brand design. Currently completing a BFA in Communication Design at Parsons School of Design.</p>
+                    <dl class="contact-list">
+                        <div>
+                            <dt data-en="Email" data-ko="이메일">Email</dt>
+                            <dd><a href="mailto:ddoazoo@gmail.com">ddoazoo@gmail.com</a></dd>
+                        </div>
+                        <div>
+                            <dt data-en="School Email" data-ko="학교 이메일">School Email</dt>
+                            <dd><a href="mailto:jangj864@newschool.edu">jangj864@newschool.edu</a></dd>
+                        </div>
+                        <div>
+                            <dt data-en="Mobile" data-ko="휴대폰">Mobile</dt>
+                            <dd>010-2323-3934</dd>
+                        </div>
+                        <div>
+                            <dt data-en="Role" data-ko="직무">Role</dt>
+                            <dd data-en="Graphic Designer / Visual Designer / Brand Designer" data-ko="그래픽디자이너 / 시각디자이너 / 브랜드디자이너">Graphic Designer / Visual Designer / Brand Designer</dd>
+                        </div>
+                    </dl>
+                    <a class="image-text-btn resume-button contact-resume" href="../resume.pdf" data-en="Download Resume" data-ko="이력서 다운로드">Download Resume</a>
                 </div>
-            </div>
-            <hr class="thin-hr">
-            <br>
-            <div class="webpage_main_image">
-                <img src="../image/me.png" alt="Jinhyeok Jang" class="profile-image">
-            </div>
-            <p>I'm Jinhyeok Jang<br><br>
-                New York / Seoul based designer specializing in Graphic Design.<br><br>
-                Currently, I am completing my BFA degree in<br>
-                Communication Design at Parsons School of Design.<br><br>
-                Send me an email to<br><br>
-                ddoazoo@gmail.com<br>
-                jangj864@newschool.edu<br><br>
-            </p>
-            <button class="image-text-btn">
-                <a href="../resume.pdf">Download Resume</a>
-            </button>
-            <br>
-            <br>
-            <br>
-            <br>
+            </section>
 
             <hr class="thick-hr">
             <div id="about-section">
+                <div class="profile-summary">
+                    <span class="profile-label" data-en="Profile" data-ko="프로필">Profile</span>
+                    <h2 data-en="Jinhyeok Jang / Jang Jinhyeok" data-ko="장진혁 / Jinhyeok Jang">Jinhyeok Jang / Jang Jinhyeok</h2>
+                    <p data-en="Graphic, visual, digital, and brand designer based between Seoul and New York. Focused on identity systems, typography, AI visual design, and UI/UX planning." data-ko="서울과 뉴욕을 기반으로 활동하는 그래픽, 시각, 디지털, 브랜드 디자이너입니다. 아이덴티티 시스템, 타이포그래피, AI 비주얼 디자인, UI/UX 기획에 집중합니다.">Graphic, visual, digital, and brand designer based between Seoul and New York. Focused on identity systems, typography, AI visual design, and UI/UX planning.</p>
+                </div>
 
-                <div class="info-section">
-                    <div class="education">
-                        <h3>Education</h3>
-                        <p><b>Seoul Institute of the Arts</b><br>
-                            School of Design, Visual Design<br>
-                            Visual Communication Design</p>
-                        <p><b>Parsons School of Design</b><br>
-                            Undergraduate<br>
-                            Bachelor of Fine Arts<br>
-                            Communication Design BFA</p>
-                    </div>
+                <div class="profile-grid">
+                    <section class="profile-card">
+                        <h3 data-en="Personal" data-ko="인적사항">Personal</h3>
+                        <dl class="profile-list">
+                            <div>
+                                <dt data-en="Name" data-ko="이름">Name</dt>
+                                <dd data-en="Jang Jinhyeok" data-ko="장진혁">Jang Jinhyeok</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Birth Date" data-ko="생년월일">Birth Date</dt>
+                                <dd>2000.10.23</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Gender" data-ko="성별">Gender</dt>
+                                <dd data-en="Male" data-ko="남자">Male</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Email" data-ko="이메일">Email</dt>
+                                <dd><a href="mailto:ddoazoo@gmail.com">ddoazoo@gmail.com</a></dd>
+                            </div>
+                            <div>
+                                <dt data-en="Phone" data-ko="전화번호">Phone</dt>
+                                <dd>02-1234-1234</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Mobile" data-ko="휴대폰">Mobile</dt>
+                                <dd>010-2323-3934</dd>
+                            </div>
+                        </dl>
+                    </section>
 
-                    <div class="degree">
-                        <h3>Degree</h3>
-                        <div class="charts">
-                            <div class="chart">
-                                <svg viewBox="0 0 36 36" class="circular-chart blue">
-                                    <path class="circle-bg"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="100, 100"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <text x="18" y="20.35" class="percentage">4.0</text>
-                                </svg>
-                                <p>Overall GPA</p>
-                            </div>
-                            <div class="chart">
-                                <svg viewBox="0 0 36 36" class="circular-chart orange">
-                                    <path class="circle-bg"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="83, 100"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <text x="18" y="20.35" class="percentage">83%</text>
-                                </svg>
-                                <p>Requirements</p>
-                            </div>
-                            <div class="chart">
-                                <svg viewBox="0 0 36 36" class="circular-chart green">
-                                    <path class="circle-bg"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <path class="circle" stroke-dasharray="84, 100"
-                                        d="M18 2.0845
-                                          a 15.9155 15.9155 0 0 1 0 31.831
-                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                    <text x="18" y="20.35" class="percentage">84%</text>
-                                </svg>
-                                <p>Credits</p>
-                            </div>
+                    <section class="profile-card">
+                        <h3 data-en="Desired Roles" data-ko="희망직무">Desired Roles</h3>
+                        <div class="tag-list">
+                            <span data-en="Graphic Designer" data-ko="그래픽디자이너">Graphic Designer</span>
+                            <span data-en="Digital Design" data-ko="디지털디자인">Digital Design</span>
+                            <span data-en="Visual Designer" data-ko="시각디자이너">Visual Designer</span>
+                            <span data-en="Brand Design" data-ko="브랜드디자인">Brand Design</span>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="skills">
-                        <h3>Skills</h3>
-                        <div class="skills-icons">
-                            <img src="image/photoshop-icon.png" alt="Photoshop">
-                            <img src="image/lightroom-icon.png" alt="Lightroom">
-                            <img src="image/illustrator-icon.png" alt="Illustrator">
-                            <img src="image/indesign-icon.png" alt="InDesign">
-                            <img src="image/premiere-icon.png" alt="Premiere">
-                            <img src="image/aftereffects-icon.png" alt="After Effects">
-                            <img src="image/figma-icon.png" alt="Figma">
-                            <img src="image/ableton-icon.png" alt="Ableton">
-                            <img src="image/madmapper-icon.png" alt="Mad Mapper">
-                            <img src="image/fontlab-icon.png" alt="Font Lab">
+                    <section class="profile-card profile-card-wide profile-experience">
+                        <h3 data-en="Skills" data-ko="스킬">Skills</h3>
+                        <div class="tag-list">
+                            <span>Photoshop</span>
+                            <span>InDesign</span>
+                            <span>HTML</span>
+                            <span>Adobe XD</span>
+                            <span>Figma</span>
+                            <span data-en="Graphic Design" data-ko="그래픽">Graphic Design</span>
+                            <span data-en="Final Cut Pro" data-ko="파이널컷">Final Cut Pro</span>
+                            <span data-en="Networking" data-ko="네트워킹">Networking</span>
+                            <span>Illustrator</span>
+                            <span data-en="Calligraphy" data-ko="캘리그래피">Calligraphy</span>
+                            <span>Blender</span>
+                            <span>Stable Diffusion</span>
+                            <span data-en="Artificial Intelligence (AI)" data-ko="인공지능(AI)">Artificial Intelligence (AI)</span>
+                            <span data-en="Chatbot" data-ko="챗봇">Chatbot</span>
+                            <span>ChatGPT</span>
+                            <span>Gemini</span>
+                            <span>Adobe Software</span>
+                            <span>PowerPoint</span>
                         </div>
-                    </div>
+                    </section>
 
-                    <div class="awards">
-                        <h3>Awards</h3>
-                        <p>Jul, 2019<br>
-                            '25th International Communication Design Competition'<br>
-                            (Mirea-N Textbook cover design contest)</p>
-                        <p>Jul, 2020<br>
-                            '26th International Communication Design Competition'<br>
-                            (Mirea-N Textbook cover design contest)</p>
-                    </div>
+                    <section class="profile-card">
+                        <h3 data-en="Education" data-ko="학력">Education</h3>
+                        <dl class="profile-list">
+                            <div>
+                                <dt data-en="School" data-ko="학교">School</dt>
+                                <dd>Parsons School of Design</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Program" data-ko="전공">Program</dt>
+                                <dd data-en="BFA, Communication Design" data-ko="Communication Design BFA">BFA, Communication Design</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Period" data-ko="기간">Period</dt>
+                                <dd>2023.08 - 2028.05</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Status" data-ko="상태">Status</dt>
+                                <dd data-en="Enrolled" data-ko="재학중">Enrolled</dd>
+                            </div>
+                            <div>
+                                <dt data-en="GPA" data-ko="학점">GPA</dt>
+                                <dd>4.0 / 4.0</dd>
+                            </div>
+                        </dl>
+                    </section>
 
-                    <div class="scholarship">
-                        <h3>Scholarship</h3>
-                        <p><b>Seoul Institute of the Arts</b><br>
+                    <section class="profile-card">
+                        <h3 data-en="Global / Language" data-ko="해외경험 / 어학">Global / Language</h3>
+                        <dl class="profile-list">
+                            <div>
+                                <dt data-en="Overseas" data-ko="해외경험">Overseas</dt>
+                                <dd data-i18n-html data-en="United States, college enrollment&lt;br&gt;2023.08 - 2024.05" data-ko="미국, 대학 재학&lt;br&gt;2023.08 - 2024.05">United States, college enrollment<br>2023.08 - 2024.05</dd>
+                            </div>
+                            <div>
+                                <dt data-en="English" data-ko="영어">English</dt>
+                                <dd data-i18n-html data-en="DET 115&lt;br&gt;Acquired 2023.02" data-ko="DET 115점&lt;br&gt;2023.02 취득">DET 115<br>Acquired 2023.02</dd>
+                            </div>
+                        </dl>
+                    </section>
 
-                            2019-Fall Academic Scholarship (Second Highest Honors in one's class)<br>
-                            2020-Fall Academic Scholarship (Third Highest Honors in one's class)<br>
-                            2023-Spring Academic Scholarship</p>
+                    <section class="profile-card profile-card-wide">
+                        <h3 data-en="Experience" data-ko="경력">Experience</h3>
+                        <article class="profile-entry">
+                            <div class="profile-entry-header">
+                                <h4 data-en="Recon Labs Inc." data-ko="주식회사 리콘랩스">Recon Labs Inc.</h4>
+                                <span>2025.07 - 2026.04</span>
+                            </div>
+                            <p class="profile-meta" data-en="Product Team | Team Member | Brand Designer" data-ko="프로덕트팀 | 사원 | 브랜드 디자이너">Product Team | Team Member | Brand Designer</p>
+                            <p data-en="Brand designer responsible for overall branding and GenPresso UI/UX planning, structure, and design." data-ko="브랜드 디자이너로서 브랜딩을 총괄하고 GenPresso UI/UX 기획, 설계, 디자인을 담당했습니다.">Brand designer responsible for overall branding and GenPresso UI/UX planning, structure, and design.</p>
+                        </article>
 
-                        <p><b>Parsons School of Design</b><br>
+                        <article class="profile-entry">
+                            <div class="profile-entry-header">
+                                <h4 data-en="SNOW Corp." data-ko="스노우주식회사">SNOW Corp.</h4>
+                                <span>2024.09 - 2025.03</span>
+                            </div>
+                            <p class="profile-meta" data-en="AI Visual Design Team | Intern | Graphic Designer" data-ko="AI 비주얼 디자인팀 | 인턴 | 그래픽 디자이너">AI Visual Design Team | Intern | Graphic Designer</p>
+                            <p data-en="Worked on AI prompt design using Stable Diffusion, graphic design, typography design, and participated in the Chahong hair consulting and AI retro photo studio projects." data-ko="Stable Diffusion을 활용한 AI 프롬프트 디자인, 그래픽 디자인, 타이포그래피 디자인을 진행했으며 차홍 헤어컨설팅 및 AI 레트로 사진관 프로젝트에 참여했습니다.">Worked on AI prompt design using Stable Diffusion, graphic design, typography design, and participated in the Chahong hair consulting and AI retro photo studio projects.</p>
+                        </article>
 
-                            2023-Fall Academic Scholarship<br>
-                            2023-Fall Dean's List<br>
-                            2024-Spring Academic Scholarship<br>
-                            2024-Spring Dean's List<br>
-                            2024-Fall Academic Scholarship</p>
-                    </div>
+                        <article class="profile-entry">
+                            <div class="profile-entry-header">
+                                <h4>Be My Kiss</h4>
+                                <span>2026.07.28</span>
+                            </div>
+                            <p class="profile-meta" data-en="Level 2 | Host: Chaechae" data-ko="레벨 2 | 호스트: Chaechae">Level 2 | Host: Chaechae</p>
+                            <p data-en="Achieved Be My Kiss Level 2 in a session hosted by Chaechae." data-ko="Chaechae가 호스트로 있는 곳에서 Be My Kiss 2레벨을 달성했습니다.">Achieved Be My Kiss Level 2 in a session hosted by Chaechae.</p>
+                        </article>
+                    </section>
+
+                    <section class="profile-card">
+                        <h3 data-en="Military" data-ko="병역">Military</h3>
+                        <dl class="profile-list">
+                            <div>
+                                <dt data-en="Status" data-ko="상태">Status</dt>
+                                <dd data-en="Completed" data-ko="군필">Completed</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Service" data-ko="복무">Service</dt>
+                                <dd data-en="Social Service" data-ko="공익">Social Service</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Period" data-ko="기간">Period</dt>
+                                <dd>2021.03 - 2022.12</dd>
+                            </div>
+                        </dl>
+                    </section>
+
+                    <section class="profile-card">
+                        <h3 data-en="Work Preferences" data-ko="희망근무조건">Work Preferences</h3>
+                        <dl class="profile-list">
+                            <div>
+                                <dt data-en="Salary" data-ko="희망연봉">Salary</dt>
+                                <dd data-en="Negotiable after interview" data-ko="면접 후 결정">Negotiable after interview</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Location" data-ko="희망근무지">Location</dt>
+                                <dd data-en="All Seoul areas, Gumi-si, Gimcheon-si, and all Daegu areas" data-ko="서울 전지역, 경북 구미시, 경북 김천시, 대구 전지역">All Seoul areas, Gumi-si, Gimcheon-si, and all Daegu areas</dd>
+                            </div>
+                            <div>
+                                <dt data-en="Portfolio" data-ko="포트폴리오">Portfolio</dt>
+                                <dd>Jinhyeok_Jang_Portfolio_compressed.pdf</dd>
+                            </div>
+                        </dl>
+                    </section>
                 </div>
             </div>
 
         </div>
     </div>
-
     <hr class="thick-hr">
 
+    <!--
+        Footer
+    -->
+
     <div class="subtitle">
-        <h5>ddoazoo@gmail.com</h5>
+        <h5>
+            ddoazoo@gmail.com
+        </h5>
     </div>
 
     <hr>
-    <div class="logo">
-        <img src="../logo.png" alt="DDOAZOO" class="logo">
-    </div>
+            <div class="logo">
+                <img src="../logo.png" alt="DDOAZOO" class="logo">
+            </div>
 
     <hr class="thick-hr">
 
-    <script src="scripts.js"></script>
+    <script src="../site.js"></script>
 
 </body>
 

@@ -29,54 +29,6 @@ body, html {
     text-transform: uppercase;
 }
 
-            .title-and-buttons {
-                display: flex;
-                align-items: flex-start;
-                align-items: center;
-                width: 100%;
-            }
-
-            .buttons-container {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-                padding-right: 14px;
-            }
-            
-            .btn {
-                text-align: center;
-                padding: 8px 25px;
-                
-
-                font-size: 1.5vw;
-                font-weight: 500;
-                width: 100%;
-
-                background-color: #FEFCF6;
-                color: #000000;
-                border: none;
-                cursor: pointer;
-                transition: background-color 0.3s;
-                border-radius: 30px;
-                border: 1px solid rgb(0, 0, 0);
-
-                margin-bottom: 5px;
-                margin-right: 5px;
-            }
-            
-            .btn a {
-                color: inherit;
-                text-decoration: none;
-                display: block;
-                line-height: inherit;
-                align-items: center;
-            }
-
-            .btn:hover {
-                background-color: #e0e0e0;
-            }
-            
-
 #Title h2 {
     display: flex;
     justify-content: space-between; 
@@ -198,32 +150,6 @@ body, html {
             width: 100%;
         }
 
-        .subtitle-buttons-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-right: 20px;
-        }
-
-        .subtitle-btn {
-            text-align: center;
-            padding: 8px 15px;
-            font-size: 1.2vw;
-            font-weight: 500;
-            background-color: #CCCCCC;
-            color: #333333;
-            border: 1px solid #666666;
-            border-radius: 20px;
-            margin-left: 10px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .subtitle-btn:hover {
-            background-color: #BBBBBB;
-        }
-
-
 .subtitle h2 {
     font-size: 2vw;
     font-weight: 400;
@@ -314,9 +240,6 @@ body, html {
 }
 
 
-
-
-
 /* 이미지 */
 
 
@@ -336,33 +259,6 @@ body, html {
     font-weight: 300;
 }
 
-        .image-text-btn {
-            text-align: center;
-            padding: 8px 15px;
-            font-size: 1.2vw;
-            font-weight: 500;
-            background-color: #cccccc00; 
-            color: #333333;
-            border: 1px solid #666666; 
-            border-radius: 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            margin-top: 2%;
-        }
-
-        .image-text-btn a {
-            color: inherit;
-            text-decoration: none; 
-            display: block;
-            line-height: inherit;
-            align-items: center;
-        }
-
-        .image-text-btn:hover {
-            background-color: #BBBBBB;
-        }
-
-    
 /*선*/
 
 .hr {
