@@ -147,6 +147,8 @@ document.addEventListener("DOMContentLoaded", () => {
         content.classList.toggle("expanded", expanded);
         content.style.opacity = expanded ? "1" : "0";
         content.style.maxHeight = expanded ? `${content.scrollHeight}px` : null;
+        content.inert = !expanded;
+        content.setAttribute("aria-hidden", String(!expanded));
         button.setAttribute("aria-expanded", String(expanded));
     }
 
@@ -168,6 +170,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         button.addEventListener("click", () => {
             setExpanded(button, content, !content.classList.contains("expanded"));
+        });
+
+        content.querySelectorAll("img").forEach((image) => {
+            image.addEventListener("load", queueLayoutUpdate);
         });
     });
 
