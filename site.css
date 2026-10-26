@@ -1976,10 +1976,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 #Title .social-links {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0;
+    border: 0;
+    background: var(--paper);
 }
 #Title .social-links .social-link {
     justify-content: center;
     min-width: 0;
-    padding-inline: 2px;
-    border-right: 0;
+    min-height: 44px;
+    margin: 0;
+    padding: 12px 2px;
+    border: 0;
+    background: transparent;
+    font-size: clamp(8px, 0.85vw, 11px);
+    line-height: 1.25;
 }
