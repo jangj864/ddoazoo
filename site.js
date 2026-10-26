@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     let layoutFrame = null;
 
     function getCurrentNavLabel(pathname) {
+        if (document.body.classList.contains("page-home")) return "home";
+        if (document.body.classList.contains("page-about")) return "about";
+        if (document.body.classList.contains("page-archive")) return "menu";
         const cleanPath = pathname.replace(/\/+$/, "");
 
         if (cleanPath.includes("/about/")) return "about";
