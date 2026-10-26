@@ -1971,3 +1971,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     .detailsButton::after { width: 6px; height: 6px; }
     #Title > h2:has(.up-sub-4), #Title .site-info-header { font-size: 9px; padding-block: 14px; }
 }
+
+/* Keep all five social links centered within equal columns. */
+#Title .social-links {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0;
+}
+#Title .social-links .social-link {
+    justify-content: center;
+    min-width: 0;
+    padding-inline: 2px;
+    border-right: 0;
+}
