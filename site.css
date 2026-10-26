@@ -841,34 +841,19 @@ video {
 .profile-grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
+    align-items: start;
     gap: 12px;
 }
 
 .profile-card {
     grid-column: span 6;
+    min-width: 0;
+    padding: 20px;
+    overflow-wrap: anywhere;
 }
 
 .profile-card-wide {
     grid-column: span 12;
-}
-
-.profile-experience {
-    padding-inline: 0;
-}
-
-.profile-experience > h3,
-.profile-experience .profile-entry,
-.profile-experience .profile-entry-header,
-.profile-experience .profile-entry h4,
-.profile-experience .profile-entry p {
-    margin-left: 0;
-    padding-left: 0;
-    text-indent: 0;
-}
-
-.profile-experience > h3,
-.profile-experience .profile-entry {
-    padding-right: clamp(12px, 2vw, 24px);
 }
 
 .profile-list {
@@ -954,8 +939,9 @@ video {
     gap: 16px;
 }
 
-.profile-entry h4 {
+#about-section .profile-entry h4 {
     margin: 0;
+    padding: 0;
     color: var(--ink);
     font-size: clamp(18px, 1.8vw, 26px);
     font-weight: 600;
@@ -1385,10 +1371,6 @@ video {
         padding: 14px;
     }
 
-    .profile-experience {
-        padding-inline: 8px;
-    }
-
     .profile-summary h2 {
         font-size: clamp(26px, 8vw, 36px);
         line-height: 1.05;
@@ -1433,7 +1415,7 @@ video {
         margin-top: 5px;
     }
 
-    .profile-entry h4 {
+    #about-section .profile-entry h4 {
         font-size: clamp(17px, 5vw, 22px);
     }
 
