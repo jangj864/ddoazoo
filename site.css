@@ -1991,6 +1991,3 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     line-height: 1.25;
 }
 
-.page-home #Title .social-links {
-    border-bottom: 1px solid var(--line-soft);
-}
